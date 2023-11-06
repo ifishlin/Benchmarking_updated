@@ -1,0 +1,21 @@
+read1:
+    - class: File
+      path: ../../../data/WGBS/AS-136077-LR-18960_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/WGBS/AS-136077-LR-18961_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/WGBS/AS-136077-LR-18960_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/WGBS/AS-136077-LR-18961_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/b370/bwameth/hg_GRCh38_PhiX_Lambda.fa
+threads: 24
+output_name: bwameth_WGBS_6N
+pbat: False
+adapters_file:
+   class: File
+   path: "/data/auto/Benchmarking_CWL/tools/adapters/TruSeq3-PE.fa"
+illuminaclip: "2:30:10:8:True"
+

@@ -1,0 +1,13 @@
+# yml of protocol PBAT
+fastq1:
+   class: File
+   path: "../../fastq/2_1.fq"
+fastq2:
+   class: File
+   path: "../../fastq/2_2.fq"
+CROP: 145 #fisrt trimmer
+HEADCROP: 6 #second trimmer
+adapters_file:
+   class: File
+   path: "./Trimmomatic-0.39/adapters/TruSeq3-PE.fa"
+illuminaclip: "2:30:10:8:True"

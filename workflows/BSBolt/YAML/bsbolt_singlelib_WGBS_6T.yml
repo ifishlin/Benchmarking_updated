@@ -1,0 +1,16 @@
+read1:
+    - class: File
+      path: ../../../data/WGBS/AS-136078-LR-18962_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/WGBS/AS-136078-LR-18963_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/WGBS/AS-136078-LR-18962_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/WGBS/AS-136078-LR-18963_R2_sample.fq.gz
+DB:
+  class: Directory
+  path: ../../genome/bsblot_WGBS_DB
+threads: 24
+output_name: BSBolt_WGBS_6T
+pbat: False

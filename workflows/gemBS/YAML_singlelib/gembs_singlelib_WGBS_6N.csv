@@ -1,0 +1,3 @@
+Barcode,Dataset,File1,File2
+AS-136077,WGBS_6N_1,AS-136077-LR-18960_R1_sample.fq.gz,AS-136077-LR-18960_R2_sample.fq.gz
+AS-136077,WGBS_6N_2,AS-136077-LR-18961_R1_sample.fq.gz,AS-136077-LR-18961_R2_sample.fq.gz

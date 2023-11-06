@@ -1,0 +1,3 @@
+vcfgz:
+  class: File
+  path: test.vcf.gz

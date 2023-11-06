@@ -1,0 +1,11 @@
+read1:
+    - class: File
+      path: ../../../data/PBAT/AS-265836-LR-38744_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/PBAT/AS-265836-LR-38744_R2_sample.fq.gz
+sample: methylpy_PBAT_6T
+ref_fasta:
+  class: File
+  path: ../../genome/methylpy/hg_GRCh38_PhiX_Lambda.fa
+pbat: True 

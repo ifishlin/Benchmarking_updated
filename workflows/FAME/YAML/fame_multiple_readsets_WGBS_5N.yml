@@ -1,0 +1,15 @@
+read1:
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18956_R1_sample.fq.gz
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18957_R1_sample.fq.gz
+read2:
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18956_R2_sample.fq.gz
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18957_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/new_fame_24_150
+output_name: FAME_WGBS_5N
+pbat: False

@@ -1,0 +1,48 @@
+read1:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18773_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18773_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18773_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18773_R1_sample.fq.gz
+read2:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18773_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18773_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18773_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18773_R2_sample.fq.gz
+DB:
+  class: Directory
+  path: ../../genome/bsblot_WGBS_DB
+threads: 24
+output_name: BSBolt_TWGBS_6N
+pbat: False

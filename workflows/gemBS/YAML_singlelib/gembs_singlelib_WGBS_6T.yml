@@ -1,0 +1,16 @@
+## To preserve the directory structures required by gemBS, Don't edit this file. 
+## Please update the settings of your datasets in example.conf and example.csv.
+## config : http://statgen.cnag.cat/gemBS/UserGuide/_build/html/pipelineConfig.html
+
+conf:
+    class: File
+    path: example_WGBS.conf
+csv:
+    class: File
+    path: gembs_singlelib_WGBS_6T.csv 
+ref:
+    class: Directory
+    location: /data/auto/data/genome/
+fastq:
+    class: Directory
+    location: /data/auto/data/WGBS/

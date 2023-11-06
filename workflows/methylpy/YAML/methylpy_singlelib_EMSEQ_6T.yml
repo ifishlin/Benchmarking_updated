@@ -1,0 +1,11 @@
+read1:
+    - class: File
+      path: ../../../data/EMSEQ/AS-413236-LR-47027_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/EMSEQ/AS-413236-LR-47027_R2_sample.fq.gz
+sample: methylpy_EMSEQ_6T
+ref_fasta:
+  class: File
+  path: ../../genome/methylpy/hg_GRCh38_PhiX_Lambda.fa
+pbat: False 

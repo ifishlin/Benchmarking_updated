@@ -1,0 +1,19 @@
+read1:
+  - class: File
+    path: ../../../data/PBAT/AS-265834-LR-38743_R1_sample_reconst.fq.gz
+read2:
+  - class: File
+    path: ../../../data/PBAT/AS-265834-LR-38743_R2_sample_reconst.fq.gz
+ref_conv_fa:
+  class: File
+  path: ../../genome/methylCtools/hg_GRCh38_PhiX_Lambda.conv.fa
+ref_pos:
+  class: File
+  path: ../../genome/methylCtools/reference.pos.gz
+threads: 24
+output_name: methylCtools_PBAT_6N
+if_twgbs: False
+adapters_file:
+   class: File
+   path: "/data/auto/Benchmarking_CWL/tools/adapters/TruSeq3-PE.fa"
+illuminaclip: "2:30:10:8:True"

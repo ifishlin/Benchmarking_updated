@@ -1,0 +1,52 @@
+read1:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134199-LR-18768_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134199-LR-18769_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134201-LR-18768_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134201-LR-18769_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134203-LR-18768_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134203-LR-18769_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134205-LR-18768_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134205-LR-18769_R1_sample.fq.gz
+read2:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134199-LR-18768_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134199-LR-18769_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134201-LR-18768_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134201-LR-18769_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134203-LR-18768_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134203-LR-18769_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134205-LR-18768_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134205-LR-18769_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/b370/bwameth/hg_GRCh38_PhiX_Lambda.fa
+threads: 24
+pbat: False
+output_name: bwameth_TWGBS_5N
+adapters_file:
+   class: File
+   path: "/data/auto/Benchmarking_CWL/tools/adapters/TruSeq3-PE.fa"
+illuminaclip: "2:30:10:8:True"

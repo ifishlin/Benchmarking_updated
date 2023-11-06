@@ -1,0 +1,7 @@
+ref:
+  class: File
+  path: /home/y306n/CWL/biscuit/genome/chr1.fa
+bam_sorted:
+  class: File
+  path: test.bam
+output_name: test

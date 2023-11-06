@@ -1,0 +1,19 @@
+read1:
+  - class: File
+    path: ../../../data/SWIFT/AS-461188-LR-49602_R1_sample.fq.gz
+read2:
+  - class: File
+    path: ../../../data/SWIFT/AS-461188-LR-49602_R2_sample.fq.gz
+threads: 24
+output_name: GSNAP_SWIFT_5N
+pbat: False
+ref:
+  class: File
+  path: ../../genome/hg_GRCh38_PhiX_Lambda.fa
+dbsnp:
+  class: File
+  path: ../../annotation/dbsnp/with_chr.vcf
+index_dir:
+  class: Directory
+  path: ../../genome/gsnap/hg_GRCh38_PhiX_Lambda.fa
+stand_call_conf: 30

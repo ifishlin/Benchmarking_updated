@@ -1,0 +1,9 @@
+read1:
+   class: File
+   path: ../../fastq/1_1.fq.gz
+read2:
+   class: File
+   path: ../../fastq/1_2.fq.gz
+rrbs: False
+clip_r2: 15
+three_prime_clip_r1: 15

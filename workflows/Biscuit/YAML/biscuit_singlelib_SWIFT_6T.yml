@@ -1,0 +1,12 @@
+read1:
+    - class: File
+      path: ../../../data/SWIFT/AS-461189-LR-49603_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/SWIFT/AS-461189-LR-49603_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/hg_GRCh38_PhiX_Lambda.fa
+pbat: False
+threads: 24
+output_name: biscuit_SWIFT_6T

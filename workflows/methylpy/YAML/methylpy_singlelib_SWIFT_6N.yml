@@ -1,0 +1,11 @@
+read1:
+    - class: File
+      path: ../../../data/SWIFT/AS-160055-LR-22993_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/SWIFT/AS-160055-LR-22993_R2_sample.fq.gz
+sample: methylpy_SWIFT_6N
+ref_fasta:
+  class: File
+  path: ../../genome/methylpy/hg_GRCh38_PhiX_Lambda.fa
+pbat: False 

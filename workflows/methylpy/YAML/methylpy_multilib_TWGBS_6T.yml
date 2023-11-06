@@ -1,0 +1,47 @@
+read1:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19159_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19159_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19159_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19159_R1_sample.fq.gz
+read2:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19159_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19159_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19159_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19159_R2_sample.fq.gz
+sample: methylpy_TWGBS_6T
+ref_fasta:
+  class: File
+  path: ../../genome/methylpy/hg_GRCh38_PhiX_Lambda.fa
+pbat: False 

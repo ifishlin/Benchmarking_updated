@@ -1,0 +1,11 @@
+read1:
+  - class: File
+    path: ../../../data/PBAT/AS-265830-LR-38589_R1_sample.fq.gz
+read2:
+  - class: File
+    path: ../../../data/PBAT/AS-265830-LR-38589_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/new_fame_24_150
+output_name: FAME_PBAT_5N
+pbat: True

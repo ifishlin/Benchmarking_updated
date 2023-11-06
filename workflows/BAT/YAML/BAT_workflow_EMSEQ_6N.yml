@@ -1,0 +1,14 @@
+ref:
+    class: File
+    path: ../../genome/hg_GRCh38_PhiX_Lambda.fa
+read1:
+    - class: File
+      path: ../../../data/EMSEQ/AS-413234-LR-47026_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/EMSEQ/AS-413234-LR-47026_R2_sample.fq.gz
+threads: 24
+output_name: BAT_EMSEQ_6N
+header:
+    class: File
+    path: ./patch/header_chr

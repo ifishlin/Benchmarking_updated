@@ -1,0 +1,49 @@
+read1:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18773_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18773_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18773_R1_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18772_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18773_R1_sample.fq.gz
+read2:
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134281-LR-18773_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134283-LR-18773_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134285-LR-18773_R2_sample.fq.gz
+  -
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18772_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134287-LR-18773_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/hg_GRCh38_PhiX_Lambda.fa
+pbat: False
+threads: 24
+output_name: biscuit_TWGBS_6N
+

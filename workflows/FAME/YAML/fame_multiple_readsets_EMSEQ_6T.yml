@@ -1,0 +1,11 @@
+read1:
+    - class: File
+      path: ../../../data/EMSEQ/AS-413236-LR-47027_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/EMSEQ/AS-413236-LR-47027_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/new_fame_24_150
+output_name: FAME_EMSEQ_6T
+pbat: False

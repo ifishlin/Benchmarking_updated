@@ -1,0 +1,8 @@
+# YAML for WGBS, EMseq and T-WGBS
+read1:
+   class: File
+   path: ../../fastq/1_1.fq.gz
+read2:
+   class: File
+   path: ../../fastq/1_2.fq.gz
+rrbs: False

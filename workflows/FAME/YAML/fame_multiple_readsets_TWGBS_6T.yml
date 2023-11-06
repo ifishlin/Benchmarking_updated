@@ -1,0 +1,39 @@
+read1:
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19159_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19159_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19159_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19158_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19159_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134290-LR-19159_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134292-LR-19159_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134294-LR-19159_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19158_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134296-LR-19159_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/new_fame_24_150
+output_name: FAME_TWGBS_6T
+pbat: False

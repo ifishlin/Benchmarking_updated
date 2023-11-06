@@ -1,0 +1,16 @@
+read1:
+  - class: File
+    path: ../../fastq/1_1.fq.gz
+  - class: File
+    path: ../../fastq/1_2.fq.gz
+read2:
+  - class: File
+    path: ../../fastq/2_1.fq.gz
+  - class: File
+    path: ../../fastq/2_2.fq.gz
+ref:
+  class: File
+  path: ./genome/chr22.fa
+pbat: False
+threads: 24
+output_name: test

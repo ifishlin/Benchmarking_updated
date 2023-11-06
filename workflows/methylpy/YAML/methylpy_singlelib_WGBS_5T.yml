@@ -1,0 +1,15 @@
+read1:
+    - class: File
+      path: ../../../data/WGBS/AS-136076-LR-18958_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/WGBS/AS-136076-LR-18959_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/WGBS/AS-136076-LR-18958_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/WGBS/AS-136076-LR-18959_R2_sample.fq.gz
+sample: methylpy_WGBS_5T
+ref_fasta:
+  class: File
+  path: ../../genome/methylpy/hg_GRCh38_PhiX_Lambda.fa
+pbat: False 

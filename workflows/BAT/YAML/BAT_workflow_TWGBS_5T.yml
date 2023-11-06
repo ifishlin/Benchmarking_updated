@@ -1,0 +1,42 @@
+ref:
+    class: File
+    path: ../../genome/hg_GRCh38_PhiX_Lambda.fa
+read1:
+    - class: File
+      path: ../../../data/TWGBS/AS-134209-LR-18770_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134209-LR-18771_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134211-LR-18770_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134211-LR-18771_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134213-LR-18770_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134213-LR-18771_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134215-LR-18770_R1_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134215-LR-18771_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/TWGBS/AS-134209-LR-18770_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134209-LR-18771_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134211-LR-18770_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134211-LR-18771_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134213-LR-18770_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134213-LR-18771_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134215-LR-18770_R2_sample.fq.gz
+    - class: File
+      path: ../../../data/TWGBS/AS-134215-LR-18771_R2_sample.fq.gz
+threads: 24
+output_name: BAT_TWGBS_5T
+header:
+    class: File
+    path: ./patch/header_chr

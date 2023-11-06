@@ -1,0 +1,6 @@
+fastq1:
+  class: File
+  path: "../2_1_trimmed.fastq.gz"
+fastq2:
+  class: File
+  path: "../2_2_trimmed.fastq.gz"

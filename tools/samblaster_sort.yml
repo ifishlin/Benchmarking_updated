@@ -1,0 +1,5 @@
+bam:
+  class: File
+  path: test.bam
+output_name: test
+threads: 24

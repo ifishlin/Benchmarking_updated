@@ -1,0 +1,12 @@
+read1:
+    - class: File
+      path: ../../../data/PBAT/AS-265832-LR-38742_R1_sample.fq.gz
+read2:
+    - class: File
+      path: ../../../data/PBAT/AS-265832-LR-38742_R2_sample.fq.gz
+DB:
+  class: Directory
+  path: ../../genome/bsblot_WGBS_DB
+threads: 24
+output_name: BSBolt_PBAT_5T
+pbat: True

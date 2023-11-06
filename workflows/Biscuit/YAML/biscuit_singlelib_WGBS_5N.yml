@@ -1,0 +1,16 @@
+read1:
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18956_R1_sample.fq.gz
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18957_R1_sample.fq.gz
+read2:
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18956_R2_sample.fq.gz
+  - class: File
+    path: ../../../data/WGBS/AS-136075-LR-18957_R2_sample.fq.gz
+ref:
+  class: File
+  path: ../../genome/hg_GRCh38_PhiX_Lambda.fa
+pbat: False
+threads: 24
+output_name: biscuit_WGBS_5N

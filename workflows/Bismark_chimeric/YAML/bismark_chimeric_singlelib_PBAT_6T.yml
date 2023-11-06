@@ -1,0 +1,15 @@
+read1:
+    class: File
+    path: ../../../data/PBAT/AS-265836-LR-38744_R1_sample.fq.gz
+read2:
+    class: File
+    path: ../../../data/PBAT/AS-265836-LR-38744_R2_sample.fq.gz
+DB:
+  class: Directory
+  path: /data/genome/
+threads: 24
+output_name: bismark_chimeric_6T 
+bismark_ignore: 0
+bismark_ignore_r2: 5
+bismark_ignore_3prime: 4
+bismark_ignore_3prime_r2: 4
