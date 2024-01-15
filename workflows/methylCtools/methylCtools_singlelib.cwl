@@ -12,14 +12,19 @@ requirements:
 inputs:
   read1:
     type: File[]
+    doc: "Read1 FASTQ files list"
   read2:
     type: File[]
+    doc: "Read2 FASTQ files list"
   threads:
     type: int
+    doc: "Number of CPUs"
   output_name:
     type: string
+    doc: "Output files prefix name"
   ref_conv_fa:
     type: File
+    doc: "Fasta file for reference conversion"
     secondaryFiles:
       - .amb
       - .ann
@@ -28,6 +33,7 @@ inputs:
       - .sa
   ref_pos:
     type: File
+    doc: "The position file of the reference"
     secondaryFiles:
       - .tbi
 #  pbat:
@@ -35,11 +41,14 @@ inputs:
 #    default: False
   if_twgbs:
     type: boolean
+    doc: "Is the dataset TWGBS?"
     default: False
   illuminaclip:
     type: string
+    doc: "Illuminaclip string configuration for Trimmomatic."
   adapters_file:
     type: File
+    doc: "Adapters file configuration for Trimmomatic."
 
 
 steps:
