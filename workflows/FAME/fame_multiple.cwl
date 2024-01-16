@@ -12,46 +12,62 @@ requirements:
 inputs:
   read1:
     type: File[]
+    doc: "Read1 FASTQ files list"
   read2:
     type: File[]
+    doc: "Read2 FASTQ files list"
   ref:
     type: File
+    doc: "Fasta file for reference created by the FAME --genome command."
     secondaryFiles:
       - _strands
   output_name:
     type: string
+    doc: "Output files prefix name"
   pbat:
     type: boolean
+    doc: "Is the dataset PBAT?"
     default: $(false)
+  threads:
+    type: int
+    doc: "Number of CPUs"
+    default: 16
+  merged_r1_name:
+    type: string
+    doc: "The name of the merged Read1 FASTQ file."
+    default: "read1"
+  merged_r2_name:
+    type: string
+    doc: "The name of the merged Read2 FASTQ file."
+    default: "read2"
 
   # qc parameters
   adapter1:
+    doc: "adapter1 configuration for Trim_Galore."
     type: string?
   adapter2:
+    doc: "adapter2 configuration for Trim_Galore."
     type: string?
   trim_galore_quality:
+    doc: "trim_galore_quality configuration for Trim_Galore."
     type: int
     default: 20
   trim_galore_rrbs:
+    doc: "trim_galore_rrbs configuration for Trim_Galore."
     type: boolean
     default: false
   trim_galore_clip_r1:
     type: int?
+    doc: "trim_galore_clip_r1 configuration for Trim_Galore."
   trim_galore_clip_r2:
     type: int?
+    doc: "trim_galore_clip_r2 configuration for Trim_Galore."
   trim_galore_three_prime_clip_r1:
     type: int?
+    doc: "trim_galore_three_prime_clip_r1 configuration for Trim_Galore."
   trim_galore_three_prime_clip_r2:
     type: int?
-  threads:
-    type: int
-    default: 16
-  merged_r1_name:
-    type: string
-    default: "read1"
-  merged_r2_name:
-    type: string
-    default: "read2"
+    doc: "trim_galore_three_prime_clip_r2 configuration for Trim_Galore."
 
 
 steps:
