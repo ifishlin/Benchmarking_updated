@@ -18,20 +18,20 @@ requirements:
 inputs: 
   conf:
     type: File
-    doc: configuration
+    doc: "Configuration (please refer to the gemBS docs)."
     inputBinding:
       position: 1
   csv:
     type: File
-    doc: list of inputs datasets
+    doc: "List of input datasets (please refer to the gemBS docs)."
     inputBinding:
       position: 2
   ref:
     type: Directory  
-    doc: directory of reference
+    doc: "Directory of reference (please refer to the gemBS docs)."
   fastq:
     type: Directory  
-    doc: directory of fastq
+    doc: "Directory of FASTQ Files (please refer to the gemBS docs)."
 outputs:           
   report:
     type:
