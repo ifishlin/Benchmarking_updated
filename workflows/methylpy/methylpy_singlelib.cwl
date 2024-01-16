@@ -18,7 +18,7 @@ inputs:
     doc: "Read2 FASTQ files list"
   sample:
     type: string
-    doc: "Methylpy parameter 'sample'"
+    doc: "Methylpy parameter sample"
   ref_fasta:
     type: File
     doc: "Fasta file for reference."
