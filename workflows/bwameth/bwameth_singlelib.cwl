@@ -10,10 +10,13 @@ requirements:
 inputs:
   read1:
     type: File[]
+    doc: "Read1 FASTQ files list"
   read2:
     type: File[]
+    doc: "Read2 FASTQ files list"
   ref:
     type: File
+    doc: "Fasta file for reference"
     secondaryFiles:
       - .bwameth.c2t
       - .bwameth.c2t.amb
@@ -24,15 +27,20 @@ inputs:
       - .fai
   threads:
     type: int
+    doc: "Number of CPUs"
   output_name:
     type: string
+    doc: "Output files prefix name"
   pbat: 
     type: boolean
+    doc: "Is the dataset PBAT?"
     default: False
   illuminaclip:
     type: string
+    doc: "Illuminaclip string configuration for Trimmomatic."
   adapters_file:
     type: File
+    doc: "Adapters file configuration for Trimmomatic."
 
 steps:
   qc_pretrim:
